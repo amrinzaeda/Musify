@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:maxHeight="105dp">
+
+    <ImageView
+        android:id="@+id/playlistImage"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/playlist_picture"
+        android:src="@drawable/empty_playlist"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playlistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="@string/playlist_name"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/playlistImage"
+        app:layout_constraintTop_toTopOf="@+id/playlistImage" />
+
+    <TextView
+        android:id="@+id/playlistSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/empty_size"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@+id/playlistName"
+        app:layout_constraintTop_toBottomOf="@+id/playlistName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

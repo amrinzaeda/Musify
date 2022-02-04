@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Musify</string>
+    <string name="button_to_home">Home</string>
+    <string name="playlist_details">Playlist Details</string>
+    <string name="title">New playlist name</string>
+    <string name="note_content">Note Content</string>
+    <string name="playlist_picture">Playlist Picture</string>
+    <string name="playlist_name">New Playlist</string>
+    <string name="empty_size">0 Songs</string>
+    <string name="new_playlist">+</string>
+    <string name="create_new_playlist">Create</string>
+    <string name="make_new_playlist">Make new playlist</string>
+    <string name="make_new_playlist_note">Give your playlist a name.</string>
+    <string name="playlist_page">My Playlists</string>
+    <string name="instruction_new_song">Enter Youtube link of song.</string>
+    <string name="instruction_new_song1">Add a New Song</string>
+    <string name="new_song_name">Enter name of song</string>
+    <string name="new_song_artist">Enter name of artist</string>
+    <string name="new_song_url">Enter Youtube link of song</string>
+    <string name="size_one">1 Song</string>
+    <string name="song_name">Song Name</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="playlist">Playlist Name</string>
+    <string name="playlist_size">Playlist Size</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="button">Button</string>
+    <string name="play">Play</string>
+    <string name="add">Add Song</string>
+    <string name="song_artist">Song Artist</string>
+    <string name="api_key">AIzaSyCOF1ua7elBxEaS7j-uCWKsDn64X7yH0cE</string>
+</resources>
